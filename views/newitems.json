@@ -1,0 +1,3 @@
+{"items": 
+[{% for article in articles %}{ "title":"{{ article.title }}","published":"{{ article.published }}","link":"{{ article.link }}","ago":"{{ article.ago }}"}{% if not loop.last %},{% endif %}{% endfor %}
+]}

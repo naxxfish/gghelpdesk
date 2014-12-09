@@ -1,0 +1,42 @@
+html, body { 
+	height: 100%;
+	width: 100%;
+	padding:0;
+	margin:0;
+	font-family:Arial
+}
+
+
+div#container {
+	height:100%;
+}
+
+#header {
+	width:100%;
+	height:35px;
+	background:grey;
+}
+
+button {
+	height:34px;
+}
+
+#frames {
+	height:100%;
+}
+
+iframe {
+	padding:0px;
+	border:0px;
+	height:100%;
+	float:left;
+	display:block;
+}
+
+iframe#forum {
+	width:70%;
+}
+
+iframe#kb {
+	width:30%;
+}

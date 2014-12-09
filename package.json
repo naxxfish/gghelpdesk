@@ -1,0 +1,25 @@
+{
+  "name": "gghelpdesk",
+  "version": "0.0.0",
+  "description": "A little bit of code that lets you be a giffgaff support ninja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naxxfish/gghelpdesk.git"
+  },
+  "author": "Chris Roberts",
+  "readmeFilename": "README.md",
+  "gitHead": "38576f4b4e2dded8f8ccfbbb0d4051c2f3d25ebc",
+  "dependencies": {
+    "express": "~4.10.4",
+    "nunjucks": "~1.1.0",
+    "feed-read": "0.0.1",
+    "express-session": "~1.9.3",
+    "debug": "~2.1.0",
+    "moment": "~2.8.4",
+    "body-parser": "~1.10.0"
+  }
+}
