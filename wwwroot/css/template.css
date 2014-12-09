@@ -1,42 +1,66 @@
+@font-face {
+	font-family:Museo500;
+	src: url("/fonts/Museo500-Regular.otf") format("opentype")
+}
 html, body { 
-	height: 100%;
 	width: 100%;
-	padding:0;
 	margin:0;
-	font-family:Arial
+	font-family:Arial;
+	overflow:hidden;
 }
 
+.logo {
+	background-color:black;
+	color:white;
+	height:35px;
+	font-family:Museo500;
+	font-size:16pt;
+	width:250px;
+	float:left;
+	text-align:center;
+	padding:5px;
+}
 
 div#container {
-	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+
+#ticker {
+	font-size:12px;
 }
 
 #header {
 	width:100%;
-	height:35px;
+	height:40px;
 	background:grey;
 }
 
 button {
 	height:34px;
-}
-
-#frames {
-	height:100%;
+	font-size:12px;
 }
 
 iframe {
-	padding:0px;
-	border:0px;
+	border:10px;
+	width:100%;
 	height:100%;
-	float:left;
-	display:block;
 }
 
-iframe#forum {
-	width:70%;
+#frame {
+	position:fixed;
+	top:35px;
+	bottom:0px;
+	right:0px;
+	left:0px;
 }
 
-iframe#kb {
-	width:30%;
+#overlay {
+	position:absolute;
+	left:0;
+	top:35px;
+	background:#000;	
 }

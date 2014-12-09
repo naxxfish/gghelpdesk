@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>gghelpdesk</title>
@@ -11,18 +11,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-<div id="container">
-	<div id="header">
-		<button id="loadNextBtn">load next</button>
-		<span id="ticker"> Press "load next" to load the next thread that's posted</span>
-		<span id="kburl"></span>
+	<div id="container">
+		<div id="header">
+			<div class="logo">giffgaff helpdesk</div>
+			<button id="loadNextBtn">load next</button>
+			<span id="ticker"> Press "load next" to load the next thread as soon as it's posted</span>
+		</div>
+		<div id="frame">
+			<iframe id="forum" src="http://community.giffgaff.com/t5/Help-Support/bd-p/QA1"></iframe>
+			<!--iframe id="forum" src="http://naxx.fish/"></iframe-->
+		</div>
 	</div>
-	<div id="frames">
-		<iframe id="forum" src="http://community.giffgaff.com/t5/Help-Support/bd-p/QA1"></iframe>
-		<iframe id="kb" src="http://community.giffgaff.com/t5/tkb/communitypage"></iframe>
-	<br style="clear:both" />
-	</div>
-</div>
-</div>
+	<div id="overlay"></div>
   </body>
 </html>

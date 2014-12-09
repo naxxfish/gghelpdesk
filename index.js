@@ -12,7 +12,7 @@ var app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(session({
-   secret: "nslijbagliubhaguliadfgliuduilb",
+   secret: "this kinda doesnt even matter much, i mean, its not exactly sensitive information is it?",
    resave: false,
    saveUninialized: true
 }))
@@ -22,7 +22,6 @@ nunjucks.configure('views', {
 	express : app
 });
 
-app.use('/static', express.static(__dirname + '/static'));
 app.use('/', express.static(__dirname + '/wwwroot'));
 app.get('/session', function (req, res) {
    var lastTouched = req.session.lastTouched;
